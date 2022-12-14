@@ -1,0 +1,27 @@
+.logout {
+    position: relative;
+    right: -80%;
+    width: max-content;
+
+}
+
+.logout1 {
+
+    position: relative;
+    float: right;
+    right: 45px;
+    width: max-content;
+
+
+}
+
+.top-content {
+    margin-top: 1%;
+}
+
+.home {
+    position: relative;
+    right: -78%;
+    /* float: left; */
+    width: max-content;
+}

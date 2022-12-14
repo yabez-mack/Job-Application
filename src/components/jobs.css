@@ -1,0 +1,58 @@
+.job {
+    width: 90%;
+    /* background-color: black;
+     */
+    margin: auto;
+    padding: 1%;
+}
+
+.perslide {
+    background-color: #edebeb;
+    border: 2px solid rgb(212, 110, 110);
+    border-radius: 33px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.company1 {
+    width: 50%;
+    font-size: large;
+
+
+}
+
+.company {
+    /* width: 70%;
+    font-size: large; */
+    color: #edebeb;
+    font-weight: 600;
+    background-color: rgb(220, 72, 72);
+    /* border-radius: 50px; */
+    width: 80%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+
+}
+
+.position {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.salary {
+    font-size: medium;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 33px;
+    width: 50%;
+
+}
+
+.applied {
+    height: max-content;
+    margin: auto;
+    margin-right: 10%;
+
+}

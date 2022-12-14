@@ -1,0 +1,162 @@
+.flex-fill {
+    /* background-color: blueviolet; */
+    background-color: rgb(204, 14, 14);
+    position: relative;
+    height: 100vh;
+    z-index: 10;
+}
+
+.box {
+    height: max-content;
+    position: relative;
+    /* padding: 40px; */
+    padding-bottom: 2%;
+    /* top: 180px; */
+
+
+    width: 400px;
+    border-radius: 20px;
+    /* box-shadow: 4px -4px 4px 4px white; */
+
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.273);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background: white;
+
+    /* Use  your own styles here */
+    /* margin: 45px; */
+    top: 250px;
+    border: 5px solid rgba(255, 255, 255, 0.019);
+
+
+
+    /* box-shadow: 1px 2px 1px 20px 10px white; */
+
+}
+
+.box:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(3deg, #ff7d60 29%, #f80b0b 89%);
+    transform: translate3d(-12px, 4px, 0) scale(0.95);
+    filter: blur(33px);
+    opacity: var(0.96);
+    transition: opacity 0.3s;
+    border-radius: inherit;
+}
+
+/* 
+* Prevents issues when the parent creates a 
+* stacking context. (For example, using the transform
+* property )
+*/
+.box::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    border-radius: inherit;
+   
+}
+
+
+
+.logininfo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.txt {
+    padding-top: 8%;
+    padding-bottom: 3%;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #180000;
+
+}
+
+.inputtxt{
+    border-radius: 22px;
+    border:2px rgba(124, 124, 124, 0.871) solid; 
+    width: 60%;
+    text-align: center;
+    /* z-index: 999; */
+    
+}
+
+
+.button {
+    padding-block: 4%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+    
+
+
+}
+
+.loginb {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 22px ;
+
+    /* padding-block: 2px; */
+    width: 90px;
+    color: aliceblue;
+    box-shadow:  inset 0px 0px 0px 4px rgba(28, 14, 179, 0.275);
+    padding-bottom: 2%;
+    box-shadow: 0 0px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.loginb:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+background-color: rgba(34, 34, 34, 0.819);
+transition: all  0.3s ease-in 4ms ;  
+
+}
+
+
+.signup {
+    border: none;
+    margin-left: 5%;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 22px ;
+    /* padding-block: 2px; */
+    width: 90px;
+    color: aliceblue;
+    box-shadow:  inset 0px 0px 0px 4px rgba(28, 14, 179, 0.275);
+    padding-bottom: 2%;
+    box-shadow: 0 0px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.signup:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+background-color: rgba(34, 34, 34, 0.819);
+transition: all  0.3s ease-in 4ms ;  
+
+}
+
+.center{
+    color: aliceblue;
+}
+
+.logout2{
+    /* height:40px; */
+    width:fit-content;
+
+}
